@@ -17,10 +17,10 @@ def ask_question(question, options, correct_option):
     answer = input("Your answer (A/B/C/D): ").strip().upper()
 
     if answer == correct_option:
-        print("✅ Correct!\n")
+        print(" Correct!\n")
         return True
     else:
-        print(f"❌ Wrong! Correct answer is {correct_option}\n")
+        print(f" Wrong! Correct answer is {correct_option}\n")
         return False
 
 
@@ -40,13 +40,14 @@ def run_quiz():
     print("===================================")
 
     if score == len(questions):
-        print("🌟 Excellent! You're a Python Master!")
+        print(" Excellent! You're a Python Master!")
     elif score >= 20:
-        print("💪 Great Job! Keep it up.")
+        print(" Great Job! Keep it up.")
     elif score >= 10:
-        print("🙂 Good attempt! Practice more.")
+        print(" Good attempt! Practice more.")
     else:
-        print("📘 Keep learning! Review W3Schools again.")
+        print(" Keep learning! Review W3Schools again.")
         
         
 run_quiz()        
+
