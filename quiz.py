@@ -36,7 +36,7 @@ def run_quiz():
             score += 1
 
     print("===================================")
-    print(f"🏁 Quiz Completed! Your Score: {score}/{len(questions)}")
+    print(f" Quiz Completed! Your Score: {score}/{len(questions)}")
     print("===================================")
 
     if score == len(questions):
@@ -50,4 +50,5 @@ def run_quiz():
         
         
 run_quiz()        
+
 
